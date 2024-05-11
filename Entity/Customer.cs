@@ -14,6 +14,5 @@ namespace Entity
         public string phone { get; set;}
         public bool active { get; set; }
 
-
     }
 }

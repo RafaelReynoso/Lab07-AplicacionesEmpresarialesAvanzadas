@@ -18,5 +18,16 @@ namespace Business
             return customer;
 
         }
+        public void InsertCustomer(Customer customer)
+        {
+            CustomerData data = new CustomerData();
+            data.Insert(customer);
+        }
+
+        public void DeleteCustomer(string customerName)
+        {
+            CustomerData data = new CustomerData();
+            data.Delete(customerName);
+        }
     }
 }
