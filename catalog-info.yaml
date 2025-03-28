@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-egresados
+  description: API de postulantes de A190
+spec:
+  type: openapi
+  lifecycle: production
+  owner: equipo-backend
+  system: A190
+  definition:
+    $text: https://raw.githubusercontent.com/RafaelReynoso/Lab07-AplicacionesEmpresarialesAvanzadas/refs/heads/master/openapi.yaml
